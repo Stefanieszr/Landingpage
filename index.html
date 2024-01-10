@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIMEIRA PAGINA</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <aside class="menu">
+        <div class="struct-content menu-content ">
+            <h1>SR</h1>
+            <nav>
+                <ul>
+                <li><a href="#home">inicio</a></li>
+                <li><a href="#">tabela</a></li>
+                <li><a href="#">galeria</a></li>
+                <li><a href="#contact">contato</a></li></ul>
+            </nav>
+        </div>
+    </aside>
+
+    <header id="home" class="section">
+        <div class="home struct-content">
+        <div class="home-main">
+            <h2>Minha primeira pagina</h2>
+            <p>Meu nome é Stefanie Rodrigues, estou cursando o 2º semestre de ciências da computação no Centro 
+                Universitario Barão de mauá e, além disso iniciei um curso de HTML/CSS/JC, venho 
+                desenvolvendo e aprendendo sobre HTML e CSS, gostaria de apresentar meu conhecimento até o momento através dessa página.</p>
+        </div>
+        <div class="home-img">
+            <img src="/klipartz.com.png" alt="logo de HTML, CSS e JavaScript">
+        </div>
+     </div>
+    </header>
+
+    <section class="section content-white"><div class="struct-content"></div></section>
+
+    <section id="contact" class="section">
+        <div class="struct-content">
+        <h2>CONTATO</h2>    
+        <p>Para mais informações entre em contato:<br><a>stefaniesouzad18@gmail.com</a></p>
+        <form name="cadastro" action="#" method="get">
+            <label class="line-form" for="name">Digite seu nome: </label>
+            <input id="name" type="text" name="nome" placeholder="Seu nome" required>
+            <input id="surname" class="surname" type="text" name="sobrenome" placeholder="Seu sobrenome" required>
+            
+            <label class="line-form" for="email">E-mail: </label>
+            <input id="email" type="email" name="email" placeholder="email@email.com" required>
+            <label class="line-form" for="text">Digite sua mensagem: </label>
+            <textarea id="text"></textarea>
+            <input class="line-form envie" type="submit" name="enviar" value="Envie sua mensagem">
+        </form>
+    </div>
+    </section>
+
+</body>
+</html>
